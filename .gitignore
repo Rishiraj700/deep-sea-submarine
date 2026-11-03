@@ -1,0 +1,16 @@
+# Virtual Environment
+.venv/
+env/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Vercel output
+.vercel/
+
+# OS metadata
+Thumbs.db
+.DS_Store

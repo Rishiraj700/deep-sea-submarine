@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Abyssal Expedition — Deep Sea Submarine</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Trebuchet+MS:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="game-container">
+    <canvas id="gameCanvas" width="960" height="640"></canvas>
+
+    <!-- Mobile / On-screen Touch Controls (Visible on touch devices) -->
+    <div id="touch-controls">
+      <div id="dpad">
+        <button id="btn-up" class="touch-btn" aria-label="Up">▲</button>
+        <div class="dpad-middle">
+          <button id="btn-left" class="touch-btn" aria-label="Left">◀</button>
+          <div class="dpad-center"></div>
+          <button id="btn-right" class="touch-btn" aria-label="Right">▶</button>
+        </div>
+        <button id="btn-down" class="touch-btn" aria-label="Down">▼</button>
+      </div>
+
+      <div id="action-buttons">
+        <button id="btn-boost" class="action-btn" aria-label="Boost">BOOST</button>
+        <button id="btn-sonar" class="action-btn primary" aria-label="Sonar">SONAR</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="quick-bar">
+    <span>[SPACE] Sonar Ping</span>
+    <span>[WASD / Arrows] Move</span>
+    <span>[SHIFT] Nitro Boost</span>
+    <span>[P] Pause</span>
+    <span>[R] Restart</span>
+    <span>[M] Mute</span>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>
