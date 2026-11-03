@@ -14,3 +14,5 @@ __pycache__/
 # OS metadata
 Thumbs.db
 .DS_Store
+
+.vercel
