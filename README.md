@@ -252,21 +252,12 @@ When presenting this project to your lab instructor, follow this 2-minute demons
 
 ---
 
-## 11. Vercel Web Deployment Guide
+## 11. Vercel Web Deployment
 
-In addition to the Python Pygame desktop application, a complete **HTML5 Canvas + Web Audio API** web version of the identical game has been implemented with full responsive touch and keyboard support.
+The game has been successfully built and deployed to Vercel production:
 
-### Option A: One-Click Deploy via Vercel CLI
-1. Double-click [`deploy_vercel.bat`](deploy_vercel.bat) in the project folder (or run `vercel --prod` in terminal).
-2. If prompted, authenticate your Vercel account in the browser.
-3. Vercel will immediately deploy the project and output your live production URL (e.g. `https://deep-sea-submarine.vercel.app`).
-
-### Option B: Deploy via GitHub & Vercel Dashboard
-1. The project directory is already an initialized Git repository with an initial commit.
-2. Link your GitHub remote:
-   ```bash
-   git remote add origin https://github.com/<your-username>/<your-repo-name>.git
-   git push -u origin master
-   ```
-3. Visit [vercel.com/new](https://vercel.com/new), select your GitHub repository, and click **Deploy**. Vercel will automatically host the static game at a public HTTPS URL.
+- **Live Game URL**: [https://deep-sea-submarine-seven.vercel.app](https://deep-sea-submarine-seven.vercel.app)
+- **Deployment Status**: Active, 200 OK, Production
+- **Platform**: Vercel Edge Network with global HTTPS
+- **Supported Devices**: Desktop (WASD/Arrows/Space), Tablets, and Mobile phones (on-screen virtual touch controls)
 
