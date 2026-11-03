@@ -249,3 +249,24 @@ When presenting this project to your lab instructor, follow this 2-minute demons
 6. **Demonstrate Shield Mechanics**: Pick up an Oxygen Bubble Shield capsule. Intentionally collide with a naval mine to demonstrate the shield absorbing the hit, deflecting the damage with a shockwave, and keeping your hull at 100%.
 7. **Demonstrate Torpedoes & Depth Zones**: Allow depth to pass 250m to show the water darken into the Twilight Trench and warning arrows flashing before fast torpedoes shoot across the screen.
 8. **In-App Restart**: Press `R` at any time to demonstrate instant game reset without restarting Python.
+
+---
+
+## 11. Vercel Web Deployment Guide
+
+In addition to the Python Pygame desktop application, a complete **HTML5 Canvas + Web Audio API** web version of the identical game has been implemented with full responsive touch and keyboard support.
+
+### Option A: One-Click Deploy via Vercel CLI
+1. Double-click [`deploy_vercel.bat`](deploy_vercel.bat) in the project folder (or run `vercel --prod` in terminal).
+2. If prompted, authenticate your Vercel account in the browser.
+3. Vercel will immediately deploy the project and output your live production URL (e.g. `https://deep-sea-submarine.vercel.app`).
+
+### Option B: Deploy via GitHub & Vercel Dashboard
+1. The project directory is already an initialized Git repository with an initial commit.
+2. Link your GitHub remote:
+   ```bash
+   git remote add origin https://github.com/<your-username>/<your-repo-name>.git
+   git push -u origin master
+   ```
+3. Visit [vercel.com/new](https://vercel.com/new), select your GitHub repository, and click **Deploy**. Vercel will automatically host the static game at a public HTTPS URL.
+
