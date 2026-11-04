@@ -252,11 +252,10 @@ When presenting this project to your lab instructor, follow this 2-minute demons
 
 ---
 
-## 11. Vercel Web Deployment
+## 11. Project Links & Live Deployment
 
-The game has been successfully built and deployed to Vercel production:
-
-- **Live Game URL**: [https://deep-sea-submarine-seven.vercel.app](https://deep-sea-submarine-seven.vercel.app)
+- 🐙 **GitHub Source Code**: [https://github.com/Rishiraj700/deep-sea-submarine](https://github.com/Rishiraj700/deep-sea-submarine)
+- 🌐 **Live Playable Web Game**: [https://deep-sea-submarine-seven.vercel.app](https://deep-sea-submarine-seven.vercel.app)
 - **Deployment Status**: Active, 200 OK, Production
 - **Platform**: Vercel Edge Network with global HTTPS
 - **Supported Devices**: Desktop (WASD/Arrows/Space), Tablets, and Mobile phones (on-screen virtual touch controls)
